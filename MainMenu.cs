@@ -12,6 +12,12 @@ public class MainMenu : MonoBehaviour
         
     }
 
+    public void GarageScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+
+    }
+
     public void ButtonJumping()
     {
 
